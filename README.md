@@ -42,3 +42,23 @@ This problem is a variant of **graph coloring**, which has wide applications in:
 - **Resource allocation** (e.g., frequency assignment, register allocation)
 - **Network optimization** (e.g., wireless channel assignment, sensor networks)
 
+## 📁 File Structure
+```bash
+├── hw1.py         # Main file containing the AI agent implementation
+├── gridgame.py    # Environment and simulation logic (provided)
+├── README.md      # Project documentation
+```
+
+## ▶️ How to Run the Program
+
+1. **Make sure you have Python installed**, along with the `pygame` library.
+2. **Open a terminal** in the project root directory.
+3. **Install** the required package using:
+   - `pip install pygame`
+4. **Run** the main program file:
+   - `python hw1.py`
+5. **During execution**, the agent will:
+   - Navigate the grid with shape and color changes
+   - Place shapes using local search
+   - Attempt to minimize conflicts, shape usage, and color usage
+
